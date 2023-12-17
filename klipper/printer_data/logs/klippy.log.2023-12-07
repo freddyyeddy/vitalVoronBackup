@@ -1,0 +1,788 @@
+Args: ['/home/freddyyeddy/klipper/klippy/klippy.py', '/home/freddyyeddy/printer_data/config/printer.cfg', '-l', '/home/freddyyeddy/printer_data/logs/klippy.log', '-I', '/home/freddyyeddy/printer_data/comms/klippy.serial', '-a', '/home/freddyyeddy/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-205-g5f0d252b'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ?
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+=============== Log rollover at Thu Dec  7 17:02:25 2023 ===============
+Start printer at Thu Dec  7 17:02:25 2023 (1702000945.9 71.2)
+Unable to open config file /home/freddyyeddy/printer_data/config/printer.cfg
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/freddyyeddy/printer_data/config/printer.cfg'
+Config error
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/freddyyeddy/printer_data/config/printer.cfg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 279, in read_main_config
+    data = self._read_config_file(filename)
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 164, in _read_config_file
+    raise error(msg)
+configparser.Error: Unable to open config file /home/freddyyeddy/printer_data/config/printer.cfg
+webhooks client 4147285848: New connection
+webhooks client 4147285848: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 4147285848: Disconnected
+Starting Klippy...
+Args: ['/home/freddyyeddy/klipper/klippy/klippy.py', '/home/freddyyeddy/printer_data/config/printer.cfg', '-l', '/home/freddyyeddy/printer_data/logs/klippy.log', '-I', '/home/freddyyeddy/printer_data/comms/klippy.serial', '-a', '/home/freddyyeddy/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-205-g5f0d252b'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ?
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Start printer at Thu Dec  7 17:02:53 2023 (1702000973.1 21.5)
+Unable to open config file /home/freddyyeddy/printer_data/config/printer.cfg
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/freddyyeddy/printer_data/config/printer.cfg'
+Config error
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/freddyyeddy/printer_data/config/printer.cfg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 279, in read_main_config
+    data = self._read_config_file(filename)
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 164, in _read_config_file
+    raise error(msg)
+configparser.Error: Unable to open config file /home/freddyyeddy/printer_data/config/printer.cfg
+webhooks client 4133971256: New connection
+webhooks client 4133971256: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 4133971256: Disconnected
+Starting Klippy...
+Args: ['/home/freddyyeddy/klipper/klippy/klippy.py', '/home/freddyyeddy/printer_data/config/printer.cfg', '-l', '/home/freddyyeddy/printer_data/logs/klippy.log', '-I', '/home/freddyyeddy/printer_data/comms/klippy.serial', '-a', '/home/freddyyeddy/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-205-g5f0d252b'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ?
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Start printer at Thu Dec  7 17:10:06 2023 (1702001406.8 20.3)
+Unable to open config file /home/freddyyeddy/printer_data/config/printer.cfg
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/freddyyeddy/printer_data/config/printer.cfg'
+Config error
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/freddyyeddy/printer_data/config/printer.cfg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 279, in read_main_config
+    data = self._read_config_file(filename)
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 164, in _read_config_file
+    raise error(msg)
+configparser.Error: Unable to open config file /home/freddyyeddy/printer_data/config/printer.cfg
+webhooks client 4127941488: New connection
+webhooks client 4127941488: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+Starting Klippy...
+Args: ['/home/freddyyeddy/klipper/klippy/klippy.py', '/home/freddyyeddy/printer_data/config/printer.cfg', '-l', '/home/freddyyeddy/printer_data/logs/klippy.log', '-I', '/home/freddyyeddy/printer_data/comms/klippy.serial', '-a', '/home/freddyyeddy/printer_data/comms/klippy.sock']
+Git version: 'v0.12.0-25-g99d7af87'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ?
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Building C code module c_helper.so
+Starting Klippy...
+Args: ['/home/freddyyeddy/klipper/klippy/klippy.py', '/home/freddyyeddy/printer_data/config/printer.cfg', '-l', '/home/freddyyeddy/printer_data/logs/klippy.log', '-I', '/home/freddyyeddy/printer_data/comms/klippy.serial', '-a', '/home/freddyyeddy/printer_data/comms/klippy.sock']
+Git version: 'v0.12.0-25-g99d7af87'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ?
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Building C code module c_helper.so
+Start printer at Thu Dec  7 17:24:35 2023 (1702002275.3 877.0)
+Unable to open config file /home/freddyyeddy/printer_data/config/printer.cfg
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/freddyyeddy/printer_data/config/printer.cfg'
+Config error
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/freddyyeddy/printer_data/config/printer.cfg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 282, in read_main_config
+    data = self._read_config_file(filename)
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 164, in _read_config_file
+    raise error(msg)
+configparser.Error: Unable to open config file /home/freddyyeddy/printer_data/config/printer.cfg
+webhooks client 4132861624: New connection
+webhooks client 4132861624: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 4132861624: Disconnected
+webhooks client 4132863016: New connection
+webhooks client 4132863016: Client info {'program': 'Moonraker', 'version': 'v0.8.0-206-g9ad8fed'}
+webhooks client 4132863016: Disconnected
+Restarting printer
+Start printer at Thu Dec  7 17:32:41 2023 (1702002761.9 1363.5)
+===== Config file =====
+[mcu]
+serial = /dev/serial/by-id/{REPLACE WITH YOUR SERIAL}
+restart_method = command
+
+[printer]
+kinematics = corexy
+max_velocity = 300
+max_accel = 3000
+max_z_velocity = 15
+max_z_accel = 350
+square_corner_velocity = 5.0
+
+[stepper_x]
+step_pin = PF13
+dir_pin = !PF12
+enable_pin = !PF14
+rotation_distance = 40
+microsteps = 32
+full_steps_per_rotation = 200
+endstop_pin = PG6
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 25
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_x]
+uart_pin = PC4
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_y]
+step_pin = PG0
+dir_pin = !PG1
+enable_pin = !PF15
+rotation_distance = 40
+microsteps = 32
+full_steps_per_rotation = 200
+endstop_pin = PG9
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 25
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_y]
+uart_pin = PD11
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z]
+step_pin = PF11
+dir_pin = !PG3
+enable_pin = !PG5
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 32
+endstop_pin = PG10
+position_endstop = -0.5
+position_min = -5
+homing_speed = 8
+second_homing_speed = 3
+homing_retract_dist = 3
+
+[tmc2209 stepper_z]
+uart_pin = PC6
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z1]
+step_pin = PG4
+dir_pin = PC1
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 32
+
+[tmc2209 stepper_z1]
+uart_pin = PC7
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z2]
+step_pin = PF9
+dir_pin = !PF10
+enable_pin = !PG2
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 32
+
+[tmc2209 stepper_z2]
+uart_pin = PF2
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z3]
+step_pin = PC13
+dir_pin = PF0
+enable_pin = !PF1
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 32
+
+[tmc2209 stepper_z3]
+uart_pin = PE4
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[extruder]
+step_pin = PE2
+dir_pin = PE3
+enable_pin = !PD4
+rotation_distance = 22.6789511
+gear_ratio = 50:10
+microsteps = 32
+full_steps_per_rotation = 200
+nozzle_diameter = 0.400
+filament_diameter = 1.75
+sensor_pin = PF4
+min_temp = 10
+max_temp = 270
+max_power = 1.0
+min_extrude_temp = 170
+control = pid
+pid_kp = 26.213
+pid_ki = 1.304
+pid_kd = 131.721
+
+[tmc2209 extruder]
+uart_pin = PE1
+interpolate = false
+run_current = 0.5
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[heater_bed]
+sensor_pin = PF3
+max_power = 0.6
+min_temp = 0
+max_temp = 120
+control = pid
+pid_kp = 58.437
+pid_ki = 2.347
+pid_kd = 363.769
+
+[probe]
+x_offset = 0
+y_offset = 25.0
+z_offset = 0
+speed = 10.0
+samples = 3
+samples_result = median
+sample_retract_dist = 3.0
+samples_tolerance = 0.006
+samples_tolerance_retries = 3
+
+[fan]
+pin = PA8
+kick_start_time = 0.5
+off_below = 0.10
+
+[heater_fan hotend_fan]
+pin = PE5
+max_power = 1.0
+kick_start_time = 0.5
+heater = extruder
+heater_temp = 50.0
+
+[controller_fan controller_fan]
+pin = PD12
+kick_start_time = 0.5
+heater = heater_bed
+
+[idle_timeout]
+timeout = 1800
+
+[safe_z_home]
+home_xy_position = -10,-10
+speed = 100
+z_hop = 10
+
+[quad_gantry_level]
+gantry_corners = 
+	-60,-10
+	410,420
+points = 
+	50,25
+	50,275
+	300,275
+	300,25
+speed = 100
+horizontal_move_z = 10
+retries = 5
+retry_tolerance = 0.0075
+max_adjust = 10
+
+[board_pins]
+aliases = 
+	
+	EXP1_1=PE8, EXP1_2=PE7,
+	EXP1_3=PE9, EXP1_4=PE10,
+	EXP1_5=PE12, EXP1_6=PE13,
+	EXP1_7=PE14, EXP1_8=PE15,
+	EXP1_9=<GND>, EXP1_10=<5V>,
+	
+	
+	EXP2_1=PA6, EXP2_2=PA5,
+	EXP2_3=PB1, EXP2_4=PA4,
+	EXP2_5=PB2, EXP2_6=PA7,
+	EXP2_7=PC15, EXP2_8=<RST>,
+	EXP2_9=<GND>, EXP2_10=<5V>
+
+[gcode_macro PARK]
+gcode = 
+	{% set th = printer.toolhead %}
+	G0 X{th.axis_maximum.x//2} Y{th.axis_maximum.y//2} Z30
+
+[gcode_macro G32]
+gcode = 
+	SAVE_GCODE_STATE NAME=STATE_G32
+	G90
+	G28
+	QUAD_GANTRY_LEVEL
+	G28
+	PARK
+	RESTORE_GCODE_STATE NAME=STATE_G32
+
+[gcode_macro PRINT_START]
+gcode = 
+	G32
+	G90
+	G1 Z20 F3000
+
+[gcode_macro PRINT_END]
+gcode = 
+	
+	{% set th = printer.toolhead %}
+	{% set x_safe = th.position.x + 20 * (1 if th.axis_maximum.x - th.position.x > 20 else -1) %}
+	{% set y_safe = th.position.y + 20 * (1 if th.axis_maximum.y - th.position.y > 20 else -1) %}
+	{% set z_safe = [th.position.z + 2, th.axis_maximum.z]|min %}
+	
+	SAVE_GCODE_STATE NAME=STATE_PRINT_END
+	
+	M400
+	G92 E0
+	G1 E-5.0 F1800
+	
+	TURN_OFF_HEATERS
+	
+	G90
+	G0 X{x_safe} Y{y_safe} Z{z_safe} F20000
+	G0 X{th.axis_maximum.x//2} Y{th.axis_maximum.y - 2} F3600
+	M107
+	
+	BED_MESH_CLEAR
+	
+	
+	
+	
+	
+	
+	RESTORE_GCODE_STATE NAME=STATE_PRINT_END MOVE=0
+=======================
+Config error
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 141, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 130, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/home/freddyyeddy/klipper/klippy/extras/heater_bed.py", line 28, in load_config
+    return PrinterHeaterBed(config)
+  File "/home/freddyyeddy/klipper/klippy/extras/heater_bed.py", line 11, in __init__
+    self.heater = pheaters.setup_heater(config, 'B')
+  File "/home/freddyyeddy/klipper/klippy/extras/heaters.py", line 264, in setup_heater
+    sensor = self.setup_sensor(config)
+  File "/home/freddyyeddy/klipper/klippy/extras/heaters.py", line 280, in setup_sensor
+    sensor_type = config.get('sensor_type')
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 57, in get
+    return self._get_wrapper(self.fileconfig.get, option, default,
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 32, in _get_wrapper
+    raise error("Option '%s' in section '%s' must be specified"
+configparser.Error: Option 'sensor_type' in section 'heater_bed' must be specified
+webhooks client 4132446040: New connection
+webhooks client 4132446040: Client info {'program': 'Moonraker', 'version': 'v0.8.0-206-g9ad8fed'}
+webhooks client 4132446040: Disconnected
+webhooks client 4132445368: New connection
+webhooks client 4132445368: Client info {'program': 'Moonraker', 'version': 'v0.8.0-206-g9ad8fed'}
+webhooks client 4132445368: Disconnected
+webhooks client 4132497128: New connection
+webhooks client 4132497128: Client info {'program': 'Moonraker', 'version': 'v0.8.0-206-g9ad8fed'}
+webhooks client 4132497128: Disconnected
+webhooks client 4132497080: New connection
+webhooks client 4132497080: Client info {'program': 'Moonraker', 'version': 'v0.8.0-206-g9ad8fed'}
+webhooks client 4132497080: Disconnected
+webhooks client 4132446136: New connection
+webhooks client 4132446136: Client info {'program': 'Moonraker', 'version': 'v0.8.0-206-g9ad8fed'}
+Transition to shutdown state: Shutdown due to webhooks request
+Dumping 8 requests for client 4132446136
+Received 2263.544244: b'{"id": 3891600760, "method": "info", "params": {"client_info": {"program": "Moonraker", "version": "v0.8.0-206-g9ad8fed"}}}'
+Received 2263.551357: b'{"id": 3891599680, "method": "list_endpoints", "params": {}}'
+Received 2263.565191: b'{"id": 3881752632, "method": "objects/subscribe", "params": {"objects": {"webhooks": null}, "response_template": {"method": "process_status_update"}}}'
+Received 2263.569387: b'{"id": 3892224232, "method": "gcode/subscribe_output", "params": {"response_template": {"method": "process_gcode_response"}}}'
+Received 2263.571091: b'{"id": 3881306984, "method": "list_endpoints", "params": {}}'
+Received 2263.914916: b'{"id": 3881753088, "method": "info", "params": {}}'
+Received 2265.919345: b'{"id": 3891597928, "method": "info", "params": {}}'
+Received 2267.347702: b'{"id": 3891597928, "method": "emergency_stop", "params": {}}'
+Reactor garbage collection: (2213.916127161, 0.0, 0.0)
+webhooks client 4132446136: Disconnected
+Starting Klippy...
+Args: ['/home/freddyyeddy/klipper/klippy/klippy.py', '/home/freddyyeddy/printer_data/config/printer.cfg', '-l', '/home/freddyyeddy/printer_data/logs/klippy.log', '-I', '/home/freddyyeddy/printer_data/comms/klippy.serial', '-a', '/home/freddyyeddy/printer_data/comms/klippy.sock']
+Git version: 'v0.12.0-25-g99d7af87'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ?
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Start printer at Thu Dec  7 17:48:15 2023 (1702003695.6 21.2)
+===== Config file =====
+[mcu]
+serial = /dev/serial/by-id/{REPLACE WITH YOUR SERIAL}
+restart_method = command
+
+[printer]
+kinematics = corexy
+max_velocity = 300
+max_accel = 3000
+max_z_velocity = 15
+max_z_accel = 350
+square_corner_velocity = 5.0
+
+[stepper_x]
+step_pin = PF13
+dir_pin = !PF12
+enable_pin = !PF14
+rotation_distance = 40
+microsteps = 32
+full_steps_per_rotation = 200
+endstop_pin = PG6
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 25
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_x]
+uart_pin = PC4
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_y]
+step_pin = PG0
+dir_pin = !PG1
+enable_pin = !PF15
+rotation_distance = 40
+microsteps = 32
+full_steps_per_rotation = 200
+endstop_pin = PG9
+position_min = 0
+position_endstop = 350
+position_max = 350
+homing_speed = 25
+homing_retract_dist = 5
+homing_positive_dir = true
+
+[tmc2209 stepper_y]
+uart_pin = PD11
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z]
+step_pin = PF11
+dir_pin = !PG3
+enable_pin = !PG5
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 32
+endstop_pin = PG10
+position_endstop = -0.5
+position_max = 310
+position_min = -5
+homing_speed = 8
+second_homing_speed = 3
+homing_retract_dist = 3
+
+[tmc2209 stepper_z]
+uart_pin = PC6
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z1]
+step_pin = PG4
+dir_pin = PC1
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 32
+
+[tmc2209 stepper_z1]
+uart_pin = PC7
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z2]
+step_pin = PF9
+dir_pin = !PF10
+enable_pin = !PG2
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 32
+
+[tmc2209 stepper_z2]
+uart_pin = PF2
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[stepper_z3]
+step_pin = PC13
+dir_pin = PF0
+enable_pin = !PF1
+rotation_distance = 40
+gear_ratio = 80:16
+microsteps = 32
+
+[tmc2209 stepper_z3]
+uart_pin = PE4
+interpolate = false
+run_current = 0.8
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[extruder]
+step_pin = PE2
+dir_pin = PE3
+enable_pin = !PD4
+rotation_distance = 22.6789511
+gear_ratio = 50:10
+microsteps = 32
+full_steps_per_rotation = 200
+nozzle_diameter = 0.400
+filament_diameter = 1.75
+sensor_pin = PF4
+min_temp = 10
+max_temp = 270
+max_power = 1.0
+min_extrude_temp = 170
+control = pid
+pid_kp = 26.213
+pid_ki = 1.304
+pid_kd = 131.721
+
+[tmc2209 extruder]
+uart_pin = PE1
+interpolate = false
+run_current = 0.5
+sense_resistor = 0.110
+stealthchop_threshold = 0
+
+[heater_bed]
+sensor_pin = PF3
+max_power = 0.6
+min_temp = 0
+max_temp = 120
+control = pid
+pid_kp = 58.437
+pid_ki = 2.347
+pid_kd = 363.769
+
+[probe]
+x_offset = 0
+y_offset = 25.0
+z_offset = 0
+speed = 10.0
+samples = 3
+samples_result = median
+sample_retract_dist = 3.0
+samples_tolerance = 0.006
+samples_tolerance_retries = 3
+
+[fan]
+pin = PA8
+kick_start_time = 0.5
+off_below = 0.10
+
+[heater_fan hotend_fan]
+pin = PE5
+max_power = 1.0
+kick_start_time = 0.5
+heater = extruder
+heater_temp = 50.0
+
+[controller_fan controller_fan]
+pin = PD12
+kick_start_time = 0.5
+heater = heater_bed
+
+[idle_timeout]
+timeout = 1800
+
+[safe_z_home]
+home_xy_position = -10,-10
+speed = 100
+z_hop = 10
+
+[quad_gantry_level]
+gantry_corners = 
+	-60,-10
+	410,420
+points = 
+	50,25
+	50,275
+	300,275
+	300,25
+speed = 100
+horizontal_move_z = 10
+retries = 5
+retry_tolerance = 0.0075
+max_adjust = 10
+
+[board_pins]
+aliases = 
+	
+	EXP1_1=PE8, EXP1_2=PE7,
+	EXP1_3=PE9, EXP1_4=PE10,
+	EXP1_5=PE12, EXP1_6=PE13,
+	EXP1_7=PE14, EXP1_8=PE15,
+	EXP1_9=<GND>, EXP1_10=<5V>,
+	
+	
+	EXP2_1=PA6, EXP2_2=PA5,
+	EXP2_3=PB1, EXP2_4=PA4,
+	EXP2_5=PB2, EXP2_6=PA7,
+	EXP2_7=PC15, EXP2_8=<RST>,
+	EXP2_9=<GND>, EXP2_10=<5V>
+
+[gcode_macro PARK]
+gcode = 
+	{% set th = printer.toolhead %}
+	G0 X{th.axis_maximum.x//2} Y{th.axis_maximum.y//2} Z30
+
+[gcode_macro G32]
+gcode = 
+	SAVE_GCODE_STATE NAME=STATE_G32
+	G90
+	G28
+	QUAD_GANTRY_LEVEL
+	G28
+	PARK
+	RESTORE_GCODE_STATE NAME=STATE_G32
+
+[gcode_macro PRINT_START]
+gcode = 
+	G32
+	G90
+	G1 Z20 F3000
+
+[gcode_macro PRINT_END]
+gcode = 
+	
+	{% set th = printer.toolhead %}
+	{% set x_safe = th.position.x + 20 * (1 if th.axis_maximum.x - th.position.x > 20 else -1) %}
+	{% set y_safe = th.position.y + 20 * (1 if th.axis_maximum.y - th.position.y > 20 else -1) %}
+	{% set z_safe = [th.position.z + 2, th.axis_maximum.z]|min %}
+	
+	SAVE_GCODE_STATE NAME=STATE_PRINT_END
+	
+	M400
+	G92 E0
+	G1 E-5.0 F1800
+	
+	TURN_OFF_HEATERS
+	
+	G90
+	G0 X{x_safe} Y{y_safe} Z{z_safe} F20000
+	G0 X{th.axis_maximum.x//2} Y{th.axis_maximum.y - 2} F3600
+	M107
+	
+	BED_MESH_CLEAR
+	
+	
+	
+	
+	
+	
+	RESTORE_GCODE_STATE NAME=STATE_PRINT_END MOVE=0
+=======================
+Config error
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 141, in _read_config
+    self.load_object(config, section_config.get_name(), None)
+  File "/home/freddyyeddy/klipper/klippy/klippy.py", line 130, in load_object
+    self.objects[section] = init_func(config.getsection(section))
+  File "/home/freddyyeddy/klipper/klippy/extras/heater_bed.py", line 28, in load_config
+    return PrinterHeaterBed(config)
+  File "/home/freddyyeddy/klipper/klippy/extras/heater_bed.py", line 11, in __init__
+    self.heater = pheaters.setup_heater(config, 'B')
+  File "/home/freddyyeddy/klipper/klippy/extras/heaters.py", line 264, in setup_heater
+    sensor = self.setup_sensor(config)
+  File "/home/freddyyeddy/klipper/klippy/extras/heaters.py", line 280, in setup_sensor
+    sensor_type = config.get('sensor_type')
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 57, in get
+    return self._get_wrapper(self.fileconfig.get, option, default,
+  File "/home/freddyyeddy/klipper/klippy/configfile.py", line 32, in _get_wrapper
+    raise error("Option '%s' in section '%s' must be specified"
+configparser.Error: Option 'sensor_type' in section 'heater_bed' must be specified
+webhooks client 4128464680: New connection
+webhooks client 4128464680: Client info {'program': 'Moonraker', 'version': 'v0.8.0-206-g9ad8fed'}
