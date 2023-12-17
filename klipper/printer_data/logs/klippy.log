@@ -5173,3 +5173,31 @@ cp: cannot stat '/home/pi/printer_data/config/sounds.cfg': No such file or direc
 
 cp: cannot stat '/home/pi/printer_data/config/macros.cfg': No such file or directory
 
+Reinitialized existing Git repository in /home/freddyyeddy/klipper-backup/.git/
+
+WARNING: git-filter-branch has a glut of gotchas generating mangled history
+	 rewrites.  Hit Ctrl-C before proceeding to abort, then use an
+	 alternative filtering tool such as 'git filter-repo'
+	 (https://github.com/newren/git-filter-repo/) instead.  See the
+	 filter-branch manual page for more details; to squelch this warning,
+	 set FILTER_BRANCH_SQUELCH_WARNING=1.
+
+Proceeding with filter-branch...
+
+
+Write g-code response
+Traceback (most recent call last):
+  File "/home/freddyyeddy/klipper/klippy/gcode.py", line 459, in _respond_raw
+    os.write(self.fd, (msg+"\n").encode())
+BlockingIOError: [Errno 11] Resource temporarily unavailable
+Cannot rewrite branches: You have unstaged changes.
+
+[main a63fde4] New backup from 17-12-23
+ 2 files changed, 80 insertions(+)
+ create mode 100644 .script.sh.swp
+
+To https://github.com/freddyyeddy/vitalVoronBackup.git
+   7a6d769..a63fde4  main -> main
+
+Command {update_git_script} finished
+
