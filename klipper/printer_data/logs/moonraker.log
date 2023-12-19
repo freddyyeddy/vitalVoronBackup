@@ -2042,3 +2042,71 @@ Content-Type: multipart/form-data; boundary=------------------------4104db18e710
 2023-12-18 19:45:26,595 [job_state.py:_status_update()] - Job Started: temperature_tower_PLA_44m46s.gcode
 2023-12-18 19:47:58,676 [klippy_connection.py:wait()] - Request 'query_endstops/status' pending: 60.00 seconds
 2023-12-18 19:47:58,677 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2023-12-18 20:12:23,849 [app.py:prepare()] - Upload Request Received from 192.168.0.49
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAwMod3XSTUhMrRPu
+2023-12-18 20:12:23,856 [app.py:post()] - Processing Uploaded File: moonraker.conf
+2023-12-18 20:12:23,867 [app.py:log_request()] - 201 POST /server/files/upload (192.168.0.49) [_TRUSTED_USER_] 20.92ms
+2023-12-18 20:13:13,758 [app.py:prepare()] - Upload Request Received from 192.168.0.49
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRY1uH4EjL76gTnfP
+2023-12-18 20:13:13,763 [app.py:post()] - Processing Uploaded File: KAMP_Settings.cfg
+2023-12-18 20:13:13,772 [app.py:log_request()] - 201 POST /server/files/upload (192.168.0.49) [_TRUSTED_USER_] 17.12ms
+2023-12-18 20:13:36,859 [app.py:prepare()] - Upload Request Received from 192.168.0.49
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryK4OPmqeuCcCP5Gg7
+2023-12-18 20:13:36,867 [app.py:post()] - Processing Uploaded File: printer.cfg
+2023-12-18 20:13:36,875 [app.py:log_request()] - 201 POST /server/files/upload (192.168.0.49) [_TRUSTED_USER_] 18.04ms
+2023-12-18 20:43:46,541 [websockets.py:on_close()] - Websocket Closed: ID: 3887545456 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.13
+2023-12-18 20:43:47,516 [server.py:_handle_term_signal()] - Exiting with signal SIGTERM
+2023-12-18 20:43:47,620 [websockets.py:on_close()] - Websocket Closed: ID: 3887147952 Close Code: 1001, Close Reason: Server Shutdown, Pong Time Elapsed: 0.92
+2023-12-18 20:43:47,623 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2023-12-18 20:43:47,630 [database.py:close()] - Database statistics:
+
+announcements:
+psize: 4096
+depth: 0
+branch_pages: 0
+leaf_pages: 0
+overflow_pages: 0
+entries: 0
+authorized_users:
+psize: 4096
+depth: 1
+branch_pages: 0
+leaf_pages: 1
+overflow_pages: 0
+entries: 1
+gcode_metadata:
+psize: 4096
+depth: 2
+branch_pages: 1
+leaf_pages: 3
+overflow_pages: 0
+entries: 7
+history:
+psize: 4096
+depth: 2
+branch_pages: 1
+leaf_pages: 12
+overflow_pages: 0
+entries: 30
+mainsail:
+psize: 4096
+depth: 1
+branch_pages: 0
+leaf_pages: 1
+overflow_pages: 0
+entries: 9
+moonraker:
+psize: 4096
+depth: 1
+branch_pages: 0
+leaf_pages: 1
+overflow_pages: 0
+entries: 7
+update_manager:
+psize: 4096
+depth: 2
+branch_pages: 1
+leaf_pages: 4
+overflow_pages: 0
+entries: 10
+2023-12-18 20:43:47,720 [server.py:main()] - Server Shutdown

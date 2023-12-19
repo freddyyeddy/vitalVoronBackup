@@ -5311,3 +5311,23 @@ Missing Klipper configuration:
 2023-12-18 19:45:26,742 [job_status.py:set_state()] - Changing job_status state from 'standby' to 'printing'
 2023-12-18 19:45:26,752 [job_status.py:update_file_metadata()] - Update Metadata. File: temperature_tower_PLA_44m46s.gcode Size: 1853577
 2023-12-18 19:45:26,760 [job_status.py:show_file_thumbnail()] - temperature_tower_PLA_44m46s.gcode
+2023-12-18 19:55:28,130 [screen.py:_load_panel()] - Loading panel: temperature
+2023-12-18 19:55:28,148 [temperature.py:add_device()] - Adding device: extruder
+2023-12-18 19:55:28,158 [temperature.py:add_device()] - Adding device: heater_bed
+2023-12-18 19:55:28,167 [temperature.py:add_device()] - Adding device: temperature_sensor chamber_temp
+2023-12-18 19:55:28,176 [temperature.py:select_heater()] - Selecting heater_bed
+2023-12-18 19:55:28,215 [screen.py:attach_panel()] - Current panel hierarchy: job_status > temperature
+2023-12-18 19:55:31,780 [KlippyWebsocket.py:set_bed_temp()] - Sending set_bed_temp: M140 S50.0
+2023-12-18 19:55:31,782 [temperature.py:change_target_temp_incremental()] - Setting heater_bed to 50.0
+2023-12-18 19:55:33,772 [screen.py:_menu_go_back()] - #### Menu go back
+2023-12-18 19:55:33,820 [screen.py:attach_panel()] - Current panel hierarchy: job_status
+2023-12-18 19:55:33,833 [job_status.py:update_file_metadata()] - Update Metadata. File: temperature_tower_PLA_44m46s.gcode Size: 1853577
+2023-12-18 19:55:33,843 [job_status.py:show_file_thumbnail()] - temperature_tower_PLA_44m46s.gcode
+2023-12-18 20:40:29,683 [KlippyGtk.py:Dialog()] - Showing dialog Cancel (width=800, height=480)
+2023-12-18 20:40:48,607 [KlippyGtk.py:remove_dialog()] - Removing Dialog
+2023-12-18 20:40:48,608 [job_status.py:cancel_confirm()] - Canceling print
+2023-12-18 20:40:48,608 [job_status.py:set_state()] - Changing job_status state from 'printing' to 'cancelling'
+2023-12-18 20:40:48,613 [KlippyWebsocket.py:print_cancel()] - Sending printer.print.cancel
+2023-12-18 20:40:49,101 [job_status.py:set_state()] - Changing job_status state from 'cancelling' to 'cancelled'
+2023-12-18 20:40:51,853 [printer.py:change_state()] - Changing state from 'printing' to 'ready'
+2023-12-18 20:40:51,854 [printer.py:change_state()] - Adding callback for state: ready
